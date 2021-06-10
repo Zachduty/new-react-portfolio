@@ -7,6 +7,7 @@ function App() {
   return (
     <Router>
       <NavBar />
+      <Route exact path="/" component={About} />
       <Route exact path="/aboutme" component={About} />
       <Route exact path="/contact" component={Contact} />
     </Router>
