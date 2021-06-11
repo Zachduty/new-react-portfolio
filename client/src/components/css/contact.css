@@ -2,43 +2,37 @@ body {
     background-color: rgb(201, 201, 201);
 }
 
-#contact {
-    display: flex;
-    justify-content: space-around;
-    margin-top: 10%;
-    color:rgba(47, 47, 206, 0.849);
-}
-
-img {
-    height: 50px;
-    width: 50px;
-}
-
-.how-section1{
-    margin-top:-15%;
-    padding: 10%;
-}
-.how-section1 h4{
-    color: rgb(216, 147, 83);
-    font-weight: bold;
-    font-size: 30px;
-}
-.how-section1 .subheading{
-    color: rgba(47, 47, 206, 0.849);
-    font-size: 20px;
-}
-.how-section1 .row
-{
-    margin-top: 10%;
-}
-.how-img 
-{
+.card-title {
     text-align: center;
-}
-.how-img img{
-    width: 40%;
+    font-size: 35px;
+    height: 60px;
+    /* color:rgb(201, 201, 201) ; */
+    color: white;
+    background-color:rgba(47, 47, 206, 0.849);
+    border: black 2px !important;
 }
 
-.subheading1 {
-    margin-top: 5px;
+#card-div {
+    width: 33%;
+    /* display: flex;
+    justify-content: center; */
+}
+
+#full-body {
+    display: flex;
+    justify-content: center;
+}
+
+#contact-img {
+    width: 50%;
+    height: auto;
+}
+
+.card-text {
+    display: flex;
+    justify-content: center;
+}
+
+.card-link {
+    color: white !important;
 }

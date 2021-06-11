@@ -11,38 +11,68 @@ function Contact() {
     //   <h1>LinkedIn <a class="btn" href="https://www.linkedin.com/in/jonathanzduty"><img src="/images/linkedin.png"></img></a></h1>
     // </div>
 
+    // <div class="how-section1">
+    // <div class="row">
+    //     <div class="col-md-6 how-img">
+    //         <img src="/images/email.png" class="rounded-circle img-fluid"  alt=""/>
+    //     </div>
+    //     <div class="col-md-6">
+    //         <h4>Contact me!</h4>
+    //                     <h2 class="subheading1"><a href="mailto:jonathanduty2021northwestern.edu">Email me here</a></h2>
+    //     </div>
+    // </div>
+    // <div class="row">
+    //     <div class="col-md-6">
+    //         <h4>GitHub</h4>
+    //                     <h2 class="text">You can check out my repos <a href="http://www.github.com/zachduty">HERE</a></h2>
+    //     </div>
+    //     <div class="col-md-6 how-img">
+    //         <img src="/images/github.png" class="rounded-circle img-fluid" alt=""/>
+    //     </div>
+    // </div>
+    // <div class="row">
+    //     <div class="col-md-6 how-img">
+    //         <img src="/images/linkedin.png" class="rounded-circle img-fluid" alt=""/>
+    //     </div>
+    //     <div class="col-md-6">
+    //         <h4>LinkedIn</h4>
+    //                     <h4 class="subheading">Check out my <a href="http://www.linkedin.com/in/jonathanzduty">LinkedIn</a> </h4>
 
-    <div class="how-section1">
-    <div class="row">
-        <div class="col-md-6 how-img">
-            <img src="/images/email.png" class="rounded-circle img-fluid"  alt=""/>
-        </div>
-        <div class="col-md-6">
-            <h4>Contact me!</h4>
-                        <h2 class="subheading1"><a href="mailto:jonathanduty2021northwestern.edu">Email me here</a></h2>
-        </div>
+    //     </div>
+    // </div>
+    // </div>
+    <div id="full-body">
+    <div id="card-div" class="card m-4">
+      <div class="card-body">
+        <h5 class="card-title"><a href="mailto:jonathanduty2021@u.northwestern.edu" class="card-link">
+          Email me</a></h5>
+        <p class="card-text">
+        <img id="contact-img" src="./images/email.png"/>
+        </p>
+       
+      </div>
     </div>
-    <div class="row">
-        <div class="col-md-6">
-            <h4>GitHub</h4>
-                        <h2 class="text">You can check out my repos <a href="http://www.github.com/zachduty">HERE</a></h2>
-        </div>
-        <div class="col-md-6 how-img">
-            <img src="/images/github.png" class="rounded-circle img-fluid" alt=""/>
-        </div>
+    <div id="card-div" class="card m-4">
+      <div class="card-body">
+        <h5 class="card-title"><a href="htttp://www.github.com/zachduty" class="card-link">
+          My GitHub</a></h5>
+        <p class="card-text">
+        <img id="contact-img" src="./images/github.png"/>
+        </p>
+       
+      </div>
     </div>
-    <div class="row">
-        <div class="col-md-6 how-img">
-            <img src="/images/linkedin.png" class="rounded-circle img-fluid" alt=""/>
-        </div>
-        <div class="col-md-6">
-            <h4>LinkedIn</h4>
-                        <h4 class="subheading">Check out my <a href="http://www.linkedin.com/in/jonathanzduty">LinkedIn</a> </h4>
-                       
-        </div>
+    <div id="card-div" class="card m-4">
+      <div class="card-body">
+        <h5 class="card-title"><a href="htttp://www.linkedin.com/in/jonathanzduty" class="card-link">
+          My LinkedIn</a></h5>
+        <p class="card-text">
+        <img id="contact-img" src="./images/linkedin.png"/>
+        </p>
+       
+      </div>
     </div>
     </div>
-    
   );
 }
 
