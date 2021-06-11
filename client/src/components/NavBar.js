@@ -21,9 +21,7 @@ function NavBar() {
               <a className="navlink">Contact</a></Link>
           </li>
           <li className="navbar">
-            <Link to="/resume">
-              <a className="navlink">Resume</a>{" "}
-            </Link>
+              <a href="resume.pdf" className="navlink">Resume</a>
           </li>
           <li className="navbar">
             <Link to="/projects">
